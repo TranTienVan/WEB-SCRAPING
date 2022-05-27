@@ -1,8 +1,23 @@
-Scraping vocabulary English -> VietNam 
+# Simple Python Web Scraping
+In this project, I extract related information about vocabulary:
+- text (.json and .csv): word, meaning, type, type, translation
+- image (.png): illustration image
+- audio (.mp3): audio spelling
+## Tools
 
-- Saving word, meaning, spelling, type, translation of a vocabulary into json value object
-    + Scraping pronunciation of each vocabulary on .mp3 files and save to MP3 folder
-    + Scraping image of each vocabulary on .png files and save to Image folder
-- Saving vocabulary to vocabulary.csv and vocabulary.json files
+- [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) : a Python library for pulling data out of HTML and XML files. It works with your favorite parser to provide idiomatic ways of navigating, searching, and modifying the parse tree. It commonly saves programmers hours or days of work.
 
-- To run project, make sure you have installed python 3 and many support libraries (numpy, pandas, bs4, ...). Using jupyter note book to run or google colab also a good selection.
+- [Requests](https://requests.readthedocs.io/en/master/) : a HTTP library for the Python programming language. The goal of the project is to make HTTP requests simpler and more human-friendly.
+
+# Setup
+## Prerequisite
+- Install Python3
+- Install PIP
+
+## Setup
+```bash 
+pip install bs4 
+pip install requests
+```
+
+Now you can run the project in [vocabulary.ipynb](https://github.com/TranTienVan/WEB-SCRAPING/blob/master/vocabulary.ipynb)
